@@ -202,6 +202,10 @@ hr{
 
 }
 @media (max-width: 1772px){
+    .container{
+        max-width:1800px ;
+        width: 100%;
+        }
     .line{
          left: 50rem;
          top: 10rem;
@@ -212,6 +216,10 @@ hr{
 }
 
 @media (max-width: 1372px){
+    .container{
+        max-width:1372px ;
+        width: 100%;
+        }
   
     .sheet2{
          left: 15rem; 
@@ -279,6 +287,10 @@ hr{
 }
 }
 @media (max-width:480px){
+    .container{
+        max-width:480px ;
+        width: 100%;
+        }
 .card {
     margin-right: 0px;
     margin-left: 0;
@@ -305,4 +317,20 @@ hr{
      left: 29.5rem;
      top: 75rem;
 }
-}
+
+.card:hover
+{
+
+    .movement{
+        display: flex;
+        position: relative;
+        left: 0.5rem;
+        bottom: 2rem;
+        
+    }
+    .line{
+        position: relative;
+        bottom: 5rem;
+    }
+  
+}}
