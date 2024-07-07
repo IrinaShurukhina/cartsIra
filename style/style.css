@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* transition: 1s; */
+}
+.container{
+max-width:1920px ;
+width: 100%;
+}
+
+.main{
+   margin-left: 10rem;
+   
+}
+
+p{
+   position: relative;
+   top: 9rem;
+   left: 1rem;
+   width: 100px;
+}
+.p1{
+    position: relative;
+    top: 7.3rem;
+}
+.static{
+    position: relative;
+    left: 8rem;
+    bottom: 2rem;
+    
+}
+.now{
+        bottom: 4.5rem;
+    }
+.carts{
+    display: flex;
+    margin-top: 20px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+ 
+}
+
+.card{
+margin-right: 30px;
+width: 376px;
+height: 188px;
+border-radius: 16px;
+border: 2px solid #79C800;
+box-shadow: 1px 1px 9px 2px #7271719f;
+backdrop-filter: blur(4px);
+}
+
+.movement{
+    display: none;
+}
+
+.categor{
+    font-family: Impact;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.79px;
+    text-align: left;
+  
+
+}
+hr{
+    background: #FFCC01;
+    width: 88px;
+    height: 4px;
+    border: none;
+    border-radius: 99px 0px 0px 0px;
+   
+}
+
+/* фон */
+
+.foto{
+    position: relative;
+    bottom: 15rem;
+}
+.sheet{
+    position: relative;
+    top: 11rem; 
+   
+    
+}
+.sheet:hover{
+        left: 1rem;
+ } 
+.points{
+    position: relative;
+    top: 30rem;
+    right: 13.5rem;
+}
+.sheet2{
+    position: relative;
+     left: 55rem; 
+     top: 20.5rem;
+  
+}
+.sheet2:hover{
+    left: 56rem;
+ }
+.points2{
+    position: relative;
+    left: 47rem; 
+}
+.line{
+    position: relative;
+     left: 62.5rem;
+     top: 15rem;
+}
+/* -------измен при наведении------ */
+.card:hover
+{
+    background: linear-gradient(0deg, rgba(121, 200, 0, 0.4), rgba(121, 200, 0, 0.4)),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    font-size: 28px;
+    cursor: pointer;
+
+    
+    .static{
+        display: none;
+    }
+    .movement{
+        display: flex;
+        position: relative;
+        left: 8rem;
+        bottom: 2rem;
+        
+    }
+    .now{
+        bottom: 4rem;
+    }
+    .pus{
+        display: flex;
+        
+    }
+    .sheet{
+        transition: 2s;
+        transform: translateX(2%);
+        
+ } 
+ .sheet2{
+    left: 56rem;
+ }
+ .f,.e{
+    transition: 2s;
+    transform: translate(200%,110%);
+    width: 20px;
+    height: 20px;
+ 
+}
+.b{
+    transition: 2s;
+    transform: translateY(-50%);
+}
+.c{
+    transition: 2s;
+    transform: translate(-170%,-150%);
+    width: 90px;
+    height: 90px;
+}
+.v, .n{
+    transition: 2s;
+    transform: translate(-300%,-85%);
+}
+
+} 
+
+    
+
+/* кружочки */
+.f,.e{
+    
+    position: relative;
+   bottom: 10.5rem;
+}
+.b,.v{
+    position: relative;
+    bottom: 9rem;
+  right:4 rem;
+}
+.c{
+    position: relative;
+    bottom: 2rem;
+    left: 14.6rem;
+}
+.n{
+    position: relative;
+    bottom: 2rem;
+    left: 3em;
+}
+
+/* адаптивность */
+@media (max-width: 1800px){
+    .carts{
+        flex-wrap: wrap;
+    }
+
+}
+@media (max-width: 1772px){
+    .line{
+         left: 50rem;
+         top: 10rem;
+    }
+    .points2{
+        left: 15rem; 
+    }
+}
+
+@media (max-width: 1372px){
+  
+    .sheet2{
+         left: 15rem; 
+         top: 20.5rem;
+      
+    }
+    .points2{
+        left: 22rem; 
+    }
+    .line{
+         left: 30rem;
+         top: 35rem;
+    }
+    .card{
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+}
+@media (max-width:991px){
+    .line{
+
+         left: 8rem;
+         top: 65rem;
+    }
+    .points2{
+        left: 3rem; 
+    }
+}
+
+@media (max-width:971px){
+    .line{
+         left: 1px;
+         top: 65rem;
+    }
+    .points2{
+        left: 3rem; 
+    }
+}
+@media (max-width:947px){
+    .line{
+         left: 1px;
+         top: 65rem;
+    }
+   
+}
+@media (max-width:827px){
+    .sheet{
+        top: 40rem; 
+    }
+    .points{
+        top: 90rem;
+        right: 13.5rem;
+    }
+    .sheet2{
+         left: 10rem; 
+         top: 20.5rem;
+      
+    }
+    .points2{
+        left: 23rem;
+    }
+    .line{
+         left: 29.5rem;
+         top: 75rem;
+}
+}
+@media (max-width:480px){
+.card {
+    margin-right: 0px;
+    margin-left: 0;
+}
+.static{
+    left: 1rem;
+}
+.sheet{
+    top: 50rem; 
+}
+.points{
+    bottom: 90rem;
+    right: 13.5rem;
+}
+.sheet2{
+     left: 5rem; 
+     top:70rem;
+  
+}
+.points2{
+    left: 23rem;
+}
+.line{
+     left: 29.5rem;
+     top: 75rem;
+}
+}
